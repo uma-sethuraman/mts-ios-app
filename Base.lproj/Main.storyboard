@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uvH-f5-MGJ">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Houston Sri Meenakshi Temple-->
+        <scene sceneID="u3P-YX-nfc">
+            <objects>
+                <viewController storyboardIdentifier="PoojaViewController" id="iia-tk-iSP" customClass="PoojaViewController" customModule="HoustonMTSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9B8-7e-xcB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3fW-uZ-Gho">
+                                <rect key="frame" x="76.666666666666686" y="264" width="261" height="76"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="7v4-jJ-oZq"/>
+                                    <constraint firstAttribute="width" constant="261" id="YJF-nK-j2K"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Pooja Events">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="22" name="KohinoorDevanagari-Semibold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="poojaEventsButton:" destination="iia-tk-iSP" eventType="touchUpInside" id="OBe-LO-NMF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xak-tY-mwO">
+                                <rect key="frame" x="76.666666666666686" y="490" width="261" height="76"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="D2P-S5-mUN"/>
+                                    <constraint firstAttribute="height" constant="76" id="TTt-7B-ZRF"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="List of Pooja Items">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83235000000000003" blue="0.47321000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="22" name="KohinoorDevanagari-Semibold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="poojaItemsButton:" destination="iia-tk-iSP" eventType="touchUpInside" id="toV-TX-1ro"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R9B-ja-MmG">
+                                <rect key="frame" x="76.666666666666686" y="375" width="261" height="76"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="261" id="13A-RG-gfy"/>
+                                    <constraint firstAttribute="height" constant="76" id="AdP-AP-hAt"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Private Pooja Bookings">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83235000000000003" blue="0.47321000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="22" name="KohinoorDevanagari-Semibold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="poojaBookingsButton:" destination="iia-tk-iSP" eventType="touchUpInside" id="u8O-0C-qGs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iG-cg-ZPr">
+                                <rect key="frame" x="90" y="181" width="234" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Pooja Information:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="27" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5iG-cg-ZPr" firstAttribute="top" secondItem="5Wj-dg-AwN" secondAttribute="top" constant="93" id="AU0-eq-HcG"/>
+                            <constraint firstItem="xak-tY-mwO" firstAttribute="height" secondItem="R9B-ja-MmG" secondAttribute="height" id="ELa-Rn-3UY"/>
+                            <constraint firstItem="xak-tY-mwO" firstAttribute="top" secondItem="R9B-ja-MmG" secondAttribute="bottom" constant="39" id="HLK-ci-L8G"/>
+                            <constraint firstItem="5iG-cg-ZPr" firstAttribute="centerX" secondItem="9B8-7e-xcB" secondAttribute="centerX" id="Lor-ua-Fa6"/>
+                            <constraint firstItem="R9B-ja-MmG" firstAttribute="top" secondItem="3fW-uZ-Gho" secondAttribute="bottom" constant="35" id="N1q-cT-HRx"/>
+                            <constraint firstItem="3fW-uZ-Gho" firstAttribute="top" secondItem="5iG-cg-ZPr" secondAttribute="bottom" constant="45" id="Owk-QX-Fj0"/>
+                            <constraint firstItem="3fW-uZ-Gho" firstAttribute="centerX" secondItem="9B8-7e-xcB" secondAttribute="centerX" id="QDc-Ls-0lB"/>
+                            <constraint firstItem="R9B-ja-MmG" firstAttribute="top" secondItem="3fW-uZ-Gho" secondAttribute="bottom" constant="35" id="QMa-vy-6Lx"/>
+                            <constraint firstItem="xak-tY-mwO" firstAttribute="width" secondItem="R9B-ja-MmG" secondAttribute="width" id="Sga-rM-LKI"/>
+                            <constraint firstItem="R9B-ja-MmG" firstAttribute="centerX" secondItem="9B8-7e-xcB" secondAttribute="centerX" id="guO-R4-dVy"/>
+                            <constraint firstItem="xak-tY-mwO" firstAttribute="centerX" secondItem="9B8-7e-xcB" secondAttribute="centerX" id="hUy-gl-Iao"/>
+                            <constraint firstItem="R9B-ja-MmG" firstAttribute="width" secondItem="3fW-uZ-Gho" secondAttribute="width" id="iZi-A0-Z7P"/>
+                            <constraint firstItem="xak-tY-mwO" firstAttribute="top" secondItem="R9B-ja-MmG" secondAttribute="bottom" constant="39" id="lCs-nQ-VEh"/>
+                            <constraint firstItem="3fW-uZ-Gho" firstAttribute="top" secondItem="5iG-cg-ZPr" secondAttribute="bottom" constant="45" id="nGc-0f-Jby"/>
+                            <constraint firstItem="R9B-ja-MmG" firstAttribute="height" secondItem="3fW-uZ-Gho" secondAttribute="height" id="rG0-pI-lif"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Wj-dg-AwN"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Houston Sri Meenakshi Temple" id="wDM-HH-s6u">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon_2" id="BLC-5g-j2V">
+                            <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="PoojaMenuButton:" destination="iia-tk-iSP" id="18t-gS-uuM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="uvH-f5-MGJ" kind="showDetail" identifier="PoojaToHomeSegue" id="3FL-du-gor"/>
+                        <segue destination="8mK-8j-fod" kind="showDetail" identifier="PoojaToVHSSegue" id="qZn-h8-Vzh"/>
+                        <segue destination="Yv3-hG-5FY" kind="showDetail" identifier="poojaToVolunteerSegue" id="lXT-Oj-Fsb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="06Y-nE-p48" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1797.1014492753625" y="665.625"/>
+        </scene>
+        <!--Nav Menu View Controller-->
+        <scene sceneID="5Ra-Xb-vZu">
+            <objects>
+                <tableViewController storyboardIdentifier="NavMenuViewController" id="4Z4-Rg-ZxP" customClass="NavMenuViewController" customModule="HoustonMTSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="qPD-Pg-PYb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="ec3-yS-a8J">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="qck-gH-HyL">
+                                        <rect key="frame" x="0.0" y="35" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qck-gH-HyL" id="nwn-E9-QTm">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_icon" translatesAutoresizingMaskIntoConstraints="NO" id="pmJ-aS-Z0z">
+                                                    <rect key="frame" x="16" y="23" width="24" height="24"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="24" id="57g-ar-s8O"/>
+                                                        <constraint firstAttribute="width" constant="24" id="pCC-5E-b1s"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3eI-gE-o6n">
+                                                    <rect key="frame" x="87" y="67.666666666666671" width="327" height="2"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="2" id="p4b-Lg-yAg"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tR-35-acn">
+                                                    <rect key="frame" x="56" y="22" width="49.666666666666657" height="25.666666666666671"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="3tR-35-acn" firstAttribute="leading" secondItem="pmJ-aS-Z0z" secondAttribute="trailing" constant="16" id="5FE-Am-aqW"/>
+                                                <constraint firstItem="3eI-gE-o6n" firstAttribute="leading" secondItem="nwn-E9-QTm" secondAttribute="leading" constant="87" id="B51-nI-QGt"/>
+                                                <constraint firstAttribute="trailing" secondItem="3eI-gE-o6n" secondAttribute="trailing" id="DLx-jJ-4eS"/>
+                                                <constraint firstItem="pmJ-aS-Z0z" firstAttribute="leading" secondItem="nwn-E9-QTm" secondAttribute="leading" constant="16" id="FPG-hq-wIA"/>
+                                                <constraint firstAttribute="bottom" secondItem="3eI-gE-o6n" secondAttribute="bottom" id="JeO-6c-QKc"/>
+                                                <constraint firstItem="pmJ-aS-Z0z" firstAttribute="centerY" secondItem="nwn-E9-QTm" secondAttribute="centerY" id="Mvk-aq-cNv"/>
+                                                <constraint firstItem="3tR-35-acn" firstAttribute="centerY" secondItem="pmJ-aS-Z0z" secondAttribute="centerY" id="OnU-uH-8uM"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="Rec-aM-bRE">
+                                        <rect key="frame" x="0.0" y="105" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rec-aM-bRE" id="yd0-0Y-Hpi">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_icon_2" translatesAutoresizingMaskIntoConstraints="NO" id="JkC-MT-YDT">
+                                                    <rect key="frame" x="16" y="23" width="24" height="24"/>
+                                                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="24" id="08B-vJ-AmE"/>
+                                                        <constraint firstAttribute="height" constant="24" id="ulN-5z-jQe"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OON-MO-jyB">
+                                                    <rect key="frame" x="87" y="67.666666666666671" width="327" height="2"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="2" id="lDM-5s-vHq"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pooja Info/Forms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgN-IT-m1M">
+                                                    <rect key="frame" x="56" y="22" width="142.66666666666666" height="25.666666666666671"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="SgN-IT-m1M" firstAttribute="centerY" secondItem="JkC-MT-YDT" secondAttribute="centerY" id="1Kg-1U-rPW"/>
+                                                <constraint firstItem="OON-MO-jyB" firstAttribute="leading" secondItem="yd0-0Y-Hpi" secondAttribute="leading" constant="87" id="6M3-vl-Srq"/>
+                                                <constraint firstAttribute="trailing" secondItem="OON-MO-jyB" secondAttribute="trailing" id="NiK-MY-Ej4"/>
+                                                <constraint firstItem="JkC-MT-YDT" firstAttribute="leading" secondItem="yd0-0Y-Hpi" secondAttribute="leading" constant="16" id="Qfl-89-LVz"/>
+                                                <constraint firstAttribute="bottom" secondItem="OON-MO-jyB" secondAttribute="bottom" id="VZV-7N-DE4"/>
+                                                <constraint firstItem="SgN-IT-m1M" firstAttribute="leading" secondItem="JkC-MT-YDT" secondAttribute="trailing" constant="16" id="luM-Nd-JKT"/>
+                                                <constraint firstItem="JkC-MT-YDT" firstAttribute="centerY" secondItem="yd0-0Y-Hpi" secondAttribute="centerY" id="wZq-LM-82A"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="pcv-3U-9bn">
+                                        <rect key="frame" x="0.0" y="175" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pcv-3U-9bn" id="x1X-al-rcu">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WNR-hy-Xe0">
+                                                    <rect key="frame" x="16" y="23" width="24" height="24"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="24" id="3Bn-xn-U4r"/>
+                                                        <constraint firstAttribute="height" constant="24" id="t8G-3T-6X9"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UqH-4w-q6W">
+                                                    <rect key="frame" x="87" y="67.666666666666671" width="327" height="2"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="2" id="bDx-Pb-A5n"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vedic Heritage School" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgC-G7-qI1">
+                                                    <rect key="frame" x="55.999999999999986" y="22" width="185.66666666666663" height="25.666666666666671"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="WNR-hy-Xe0" firstAttribute="centerY" secondItem="x1X-al-rcu" secondAttribute="centerY" id="158-pF-l3L"/>
+                                                <constraint firstItem="KgC-G7-qI1" firstAttribute="leading" secondItem="WNR-hy-Xe0" secondAttribute="trailing" constant="16" id="3Qv-1A-38r"/>
+                                                <constraint firstAttribute="trailing" secondItem="UqH-4w-q6W" secondAttribute="trailing" id="5CN-JY-s41"/>
+                                                <constraint firstAttribute="bottom" secondItem="UqH-4w-q6W" secondAttribute="bottom" id="9Y2-br-Ads"/>
+                                                <constraint firstItem="KgC-G7-qI1" firstAttribute="centerY" secondItem="WNR-hy-Xe0" secondAttribute="centerY" id="aHC-mO-cIf"/>
+                                                <constraint firstItem="WNR-hy-Xe0" firstAttribute="leading" secondItem="x1X-al-rcu" secondAttribute="leading" constant="16" id="nQr-7t-rIk"/>
+                                                <constraint firstItem="UqH-4w-q6W" firstAttribute="leading" secondItem="x1X-al-rcu" secondAttribute="leading" constant="87" id="oF1-86-lyK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="YBB-cD-Flh">
+                                        <rect key="frame" x="0.0" y="245" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YBB-cD-Flh" id="pds-Ti-EFj">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil_icon" translatesAutoresizingMaskIntoConstraints="NO" id="lOr-AX-8Lc">
+                                                    <rect key="frame" x="16" y="23" width="24" height="24"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="24" id="Aiy-Tn-6OZ"/>
+                                                        <constraint firstAttribute="height" constant="24" id="kSX-lI-guc"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G5y-r0-d6S">
+                                                    <rect key="frame" x="87" y="67.666666666666671" width="327" height="2"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="2" id="LKt-9a-3Xq"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Volunteer Registration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQ2-QF-epS">
+                                                    <rect key="frame" x="55.999999999999986" y="22" width="190.66666666666663" height="25.666666666666671"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="sQ2-QF-epS" firstAttribute="leading" secondItem="lOr-AX-8Lc" secondAttribute="trailing" constant="16" id="7gb-pB-lVc"/>
+                                                <constraint firstAttribute="trailing" secondItem="G5y-r0-d6S" secondAttribute="trailing" id="Haf-13-cKt"/>
+                                                <constraint firstItem="lOr-AX-8Lc" firstAttribute="leading" secondItem="pds-Ti-EFj" secondAttribute="leading" constant="16" id="dbU-Qc-msQ"/>
+                                                <constraint firstItem="G5y-r0-d6S" firstAttribute="leading" secondItem="pds-Ti-EFj" secondAttribute="leading" constant="87" id="enf-kZ-eUL"/>
+                                                <constraint firstItem="sQ2-QF-epS" firstAttribute="centerY" secondItem="lOr-AX-8Lc" secondAttribute="centerY" id="lhh-jL-DHn"/>
+                                                <constraint firstAttribute="bottom" secondItem="G5y-r0-d6S" secondAttribute="bottom" id="sLO-zY-GUZ"/>
+                                                <constraint firstItem="lOr-AX-8Lc" firstAttribute="centerY" secondItem="pds-Ti-EFj" secondAttribute="centerY" id="wdH-UE-b99"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="szD-ie-gjI">
+                                        <rect key="frame" x="0.0" y="315" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="szD-ie-gjI" id="oMv-aN-vDD">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_icon_2" translatesAutoresizingMaskIntoConstraints="NO" id="TRu-QN-bQX">
+                                                    <rect key="frame" x="16" y="23" width="24" height="24"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="24" id="0K7-4s-DOu"/>
+                                                        <constraint firstAttribute="height" constant="24" id="0X6-j6-boQ"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="men-3I-6P2">
+                                                    <rect key="frame" x="87" y="67.666666666666671" width="327" height="2"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="2" id="NmS-rq-Xkg"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MTS Facility Rentals" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kme-NZ-CGf">
+                                                    <rect key="frame" x="55.999999999999986" y="22" width="167.66666666666663" height="25.666666666666671"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="TRu-QN-bQX" firstAttribute="leading" secondItem="oMv-aN-vDD" secondAttribute="leading" constant="16" id="26K-tr-YpT"/>
+                                                <constraint firstItem="kme-NZ-CGf" firstAttribute="centerY" secondItem="TRu-QN-bQX" secondAttribute="centerY" id="HhG-Is-HpE"/>
+                                                <constraint firstAttribute="bottom" secondItem="men-3I-6P2" secondAttribute="bottom" id="efi-L3-4Ur"/>
+                                                <constraint firstItem="men-3I-6P2" firstAttribute="leading" secondItem="oMv-aN-vDD" secondAttribute="leading" constant="87" id="pAo-MG-98f"/>
+                                                <constraint firstAttribute="trailing" secondItem="men-3I-6P2" secondAttribute="trailing" id="tow-a1-rJi"/>
+                                                <constraint firstItem="TRu-QN-bQX" firstAttribute="centerY" secondItem="oMv-aN-vDD" secondAttribute="centerY" id="vcD-tn-cEl"/>
+                                                <constraint firstItem="kme-NZ-CGf" firstAttribute="leading" secondItem="TRu-QN-bQX" secondAttribute="trailing" constant="16" id="wmg-N6-W1x"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="t9c-9w-vxM">
+                                        <rect key="frame" x="0.0" y="385" width="414" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t9c-9w-vxM" id="5o4-G3-4Z3">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="69.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thumbs_up_icon" translatesAutoresizingMaskIntoConstraints="NO" id="bQW-SW-Egz">
+                                                    <rect key="frame" x="16" y="23" width="24" height="24"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="24" id="MQA-7j-jaH"/>
+                                                        <constraint firstAttribute="height" constant="24" id="dPM-Mm-lkq"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hB-OK-orG">
+                                                    <rect key="frame" x="87" y="67.666666666666671" width="327" height="2"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="2" id="hhQ-E9-bVw"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Like us on Facebook!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjl-w5-1K6">
+                                                    <rect key="frame" x="56" y="22" width="174" height="26"/>
+                                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="18"/>
+                                                    <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="1hB-OK-orG" secondAttribute="bottom" id="31r-3K-Iub"/>
+                                                <constraint firstItem="1hB-OK-orG" firstAttribute="leading" secondItem="5o4-G3-4Z3" secondAttribute="leading" constant="87" id="3df-QK-VDi"/>
+                                                <constraint firstItem="bQW-SW-Egz" firstAttribute="centerY" secondItem="5o4-G3-4Z3" secondAttribute="centerY" id="9eE-dT-2UE"/>
+                                                <constraint firstItem="bQW-SW-Egz" firstAttribute="leading" secondItem="5o4-G3-4Z3" secondAttribute="leading" constant="16" id="q4X-rx-bG0"/>
+                                                <constraint firstAttribute="trailing" secondItem="1hB-OK-orG" secondAttribute="trailing" id="w7L-3c-Ss6"/>
+                                                <constraint firstItem="mjl-w5-1K6" firstAttribute="leading" secondItem="bQW-SW-Egz" secondAttribute="trailing" constant="16" id="xUp-0v-5Pg"/>
+                                                <constraint firstItem="mjl-w5-1K6" firstAttribute="centerY" secondItem="bQW-SW-Egz" secondAttribute="centerY" id="zZh-h0-gpD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="4Z4-Rg-ZxP" id="vgc-F8-pL5"/>
+                            <outlet property="delegate" destination="4Z4-Rg-ZxP" id="Cvi-EX-2hk"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hs9-Wa-HNu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2644.9275362318845" y="677.67857142857144"/>
+        </scene>
+        <!--Houston Sri Meenakshi Temple-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomePageViewController" id="BYZ-38-t0r" customClass="HomePageViewController" customModule="HoustonMTSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="enx-9t-Ce9">
+                                <rect key="frame" x="50" y="506" width="130" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Temple
+Timings</string>
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="KohinoorDevanagari-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="templeTimingsButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EY6-I0-fR0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppB-Z2-Sbf">
+                                <rect key="frame" x="234" y="615" width="130" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Temple
+Directions</string>
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="KohinoorDevanagari-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="TempleDirectionsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LsK-YF-tFn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="udM-Hp-bwp">
+                                <rect key="frame" x="50" y="615" width="130" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">MTS
+Website</string>
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="KohinoorDevanagari-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="MTSWebsiteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f1m-K5-j19"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Qn-qm-LUS">
+                                <rect key="frame" x="234" y="724" width="130" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Subscribe
+For Emails!</string>
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="KohinoorDevanagari-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="EmailSubscribeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LSu-Tn-18w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VW5-o5-CtO">
+                                <rect key="frame" x="234" y="506" width="130" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Temple
+Calendar</string>
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="KohinoorDevanagari-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="CalendarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XoI-eK-P0w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dBL-A8-CKh">
+                                <rect key="frame" x="50" y="724" width="130" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment>
+                                            <string key="content">Dress
+Code</string>
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="20" name="KohinoorDevanagari-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="dressCodeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gA7-JR-whz"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZyZ-VY-3sE">
+                                <rect key="frame" x="0.0" y="254" width="414" height="226"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="G7g-t6-y9Z">
+                                    <size key="itemSize" width="414" height="198"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="imageScrollerID" id="0a7-uw-uq0" customClass="MyCollectionViewCell" customModule="HoustonMTSApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="14" width="414" height="198"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="198"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cDW-I3-uan">
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="198"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="cDW-I3-uan" secondAttribute="bottom" id="EyX-bf-YXX"/>
+                                            <constraint firstAttribute="trailing" secondItem="cDW-I3-uan" secondAttribute="trailing" id="HBr-ly-dS2"/>
+                                            <constraint firstItem="cDW-I3-uan" firstAttribute="top" secondItem="0a7-uw-uq0" secondAttribute="top" id="iwD-al-9pg"/>
+                                            <constraint firstItem="cDW-I3-uan" firstAttribute="leading" secondItem="0a7-uw-uq0" secondAttribute="leading" id="nzn-Qx-aUE"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="homePageImage" destination="cDW-I3-uan" id="n4I-Zr-cUx"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="nfB-DP-eFf"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="6FL-t8-7Qn"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="characterWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWT-O3-gTh">
+                                <rect key="frame" x="55" y="93" width="304.33333333333331" height="92.666666666666686"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">17130 Mclean Road,
+Pearland, TX, USA, 77584
+(281) 489-0358 | Ext. 100 or 110</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lWT-O3-gTh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="0ps-kr-IEV"/>
+                            <constraint firstItem="lWT-O3-gTh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PmH-uL-BN7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Houston Sri Meenakshi Temple" id="Y5j-dg-eO8">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon_2" id="CEB-O1-YP3">
+                            <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="MenuButton:" destination="BYZ-38-t0r" id="VER-mI-7qB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="homePageCollectionView" destination="ZyZ-VY-3sE" id="eqn-Rs-gfU"/>
+                        <outlet property="timingsButtonOutlet" destination="enx-9t-Ce9" id="Fkq-DE-M36"/>
+                        <segue destination="LVb-Xx-cP6" kind="showDetail" identifier="DressCodeSegue" id="v9o-up-7bl"/>
+                        <segue destination="7et-yL-FQV" kind="showDetail" identifier="HomeToTimingsSegue" id="h4D-xO-UEz"/>
+                        <segue destination="3px-u6-fCI" kind="showDetail" identifier="PoojaSegue" id="XSf-mU-qJt"/>
+                        <segue destination="8mK-8j-fod" kind="showDetail" identifier="HomeToVHSSegue" id="sN1-02-EKP"/>
+                        <segue destination="Yv3-hG-5FY" kind="showDetail" identifier="homeToVolunteerSegue" id="9ED-33-ek9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2976.811594202899" y="-5.3571428571428568"/>
+        </scene>
+        <!--Houston Sri Meenakshi Temple-->
+        <scene sceneID="6w3-qA-vf6">
+            <objects>
+                <viewController storyboardIdentifier="DressCodeViewController" id="nyA-XT-7O4" customClass="DressCodeViewController" customModule="HoustonMTSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dms-XX-Wf9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYp-p6-xLt">
+                                <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWi-tN-fyv">
+                                <rect key="frame" x="61.666666666666657" y="287.66666666666663" width="290.66666666666674" height="320.66666666666663"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Temple Dress Code:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="29" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Please wear appropriate
+clothing, which covers 
+shoulders and knees.
+
+Dresses like shorts and
+sleeveless garments for
+both men and women are
+not suitable.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="25" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eYp-p6-xLt" firstAttribute="centerY" secondItem="Dms-XX-Wf9" secondAttribute="centerY" id="DAl-sn-oFD"/>
+                            <constraint firstItem="aWi-tN-fyv" firstAttribute="centerX" secondItem="Dms-XX-Wf9" secondAttribute="centerX" id="aJ2-iU-fCW"/>
+                            <constraint firstItem="aWi-tN-fyv" firstAttribute="centerY" secondItem="Dms-XX-Wf9" secondAttribute="centerY" id="whN-5R-k07"/>
+                            <constraint firstItem="eYp-p6-xLt" firstAttribute="centerX" secondItem="Dms-XX-Wf9" secondAttribute="centerX" id="zFp-q7-ZVx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3eQ-8p-WYx"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Houston Sri Meenakshi Temple" id="yx4-8S-GMn">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon_2" id="LbG-KO-yiZ">
+                            <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="dressCodeMenuButton:" destination="nyA-XT-7O4" id="8v9-lk-zBx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="uvH-f5-MGJ" kind="showDetail" identifier="DressCodeToHomeSegue" id="fb3-Pl-eFk"/>
+                        <segue destination="3px-u6-fCI" kind="showDetail" identifier="DressCodeToPoojaSegue" id="Wei-U9-ra5"/>
+                        <segue destination="8mK-8j-fod" kind="showDetail" identifier="DressCodeToVHSSegue" id="fPV-5c-mqP"/>
+                        <segue destination="Yv3-hG-5FY" kind="showDetail" identifier="DressCodeToVolunteerSegue" id="uPW-DP-iRj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IV1-AK-2OP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4707" y="465"/>
+        </scene>
+        <!--Houston Sri Meenakshi Temple-->
+        <scene sceneID="AgU-mg-YZE">
+            <objects>
+                <viewController storyboardIdentifier="TimingsViewController" id="GJg-3Z-qx6" customClass="TimingsViewController" customModule="HoustonMTSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mga-sP-rMX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temple Timings:" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="bFy-Xj-hMZ">
+                                <rect key="frame" x="93.333333333333329" y="123" width="227.66666666666669" height="42"/>
+                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="30"/>
+                                <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whB-SZ-ygF">
+                                <rect key="frame" x="95.000000000000014" y="173" width="224.33333333333337" height="328"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Monday to Thursday:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Semibold"/>
+                                            <font key="NSOriginalFont" size="23" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">8:30 AM to 1:00 PM
+5:00 PM to 8:30 PM
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Regular"/>
+                                            <font key="NSOriginalFont" size="23" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="10" name="KohinoorDevanagari-Regular"/>
+                                            <font key="NSOriginalFont" size="10" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Friday">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Semibold"/>
+                                            <font key="NSOriginalFont" size="23" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Regular"/>
+                                            <font key="NSOriginalFont" size="23" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">8:30 AM to 1:00 PM
+5:00 PM to 9:00 PM
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Regular"/>
+                                            <font key="NSOriginalFont" size="23" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="10" name="KohinoorDevanagari-Regular"/>
+                                            <font key="NSOriginalFont" size="10" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Weekends and
+National Holidays:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Semibold"/>
+                                            <font key="NSOriginalFont" size="23" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="8:30 AM to 8:30 PM">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" paragraphSpacing="1" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="whB-SZ-ygF" firstAttribute="centerX" secondItem="mga-sP-rMX" secondAttribute="centerX" id="JiO-pe-5Kr"/>
+                            <constraint firstItem="whB-SZ-ygF" firstAttribute="top" secondItem="bFy-Xj-hMZ" secondAttribute="bottom" constant="8" id="QXf-Nz-etz"/>
+                            <constraint firstItem="bFy-Xj-hMZ" firstAttribute="top" secondItem="gC3-YH-dgQ" secondAttribute="top" constant="35" id="Rah-sP-cEG"/>
+                            <constraint firstItem="bFy-Xj-hMZ" firstAttribute="centerX" secondItem="mga-sP-rMX" secondAttribute="centerX" id="g2V-Gw-nlZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gC3-YH-dgQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Houston Sri Meenakshi Temple" id="X7K-LH-A7C">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon_2" id="8o7-XN-joA">
+                            <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="timingsMenuButton:" destination="GJg-3Z-qx6" id="p0n-1e-ztR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="timingsInfoLabel" destination="whB-SZ-ygF" id="yh6-EN-6xJ"/>
+                        <segue destination="uvH-f5-MGJ" kind="showDetail" identifier="TimingsToHomeSegue" id="32a-jS-Gtj"/>
+                        <segue destination="3px-u6-fCI" kind="showDetail" identifier="TimingsToPoojaSegue" id="lRg-9k-EOQ"/>
+                        <segue destination="8mK-8j-fod" kind="showDetail" identifier="TimingsToVHSSegue" id="Ho3-re-cbH"/>
+                        <segue destination="Yv3-hG-5FY" kind="showDetail" identifier="TimingsToVolunteerSegue" id="pBL-VO-aPP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="umJ-y6-fRs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5666.666666666667" y="864.50892857142856"/>
+        </scene>
+        <!--Houston Sri Meenakshi Temple-->
+        <scene sceneID="T7v-Hv-VZJ">
+            <objects>
+                <viewController storyboardIdentifier="volunteerViewController" id="o4o-fW-nW3" customClass="volunteerViewController" customModule="HoustonMTSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nw3-OV-mh6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="80F-Xd-ypC">
+                                <rect key="frame" x="64.333333333333343" y="170" width="285.66666666666663" height="38"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Volunteer Registration">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="27" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2HY-jO-n5m">
+                                <rect key="frame" x="52" y="359" width="310" height="101"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">For more information,
+please email
+volunteer@emeenakshi.org</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="24" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UPs-dS-1ij">
+                                <rect key="frame" x="97" y="234" width="220" height="90"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="1Rr-Mo-Tri"/>
+                                    <constraint firstAttribute="height" constant="90" id="g1T-3P-prT"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Volunteer Registration Form">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="22" name="KohinoorDevanagari-Semibold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="poojaEventsButton:" destination="iia-tk-iSP" eventType="touchUpInside" id="d68-eg-6aA"/>
+                                    <action selector="registrationButton:" destination="o4o-fW-nW3" eventType="touchUpInside" id="rqu-hB-7T8"/>
+                                    <action selector="vhsWebsiteButton:" destination="d6z-F5-v1x" eventType="touchUpInside" id="F6T-jB-nRG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wzq-BF-Amo">
+                                <rect key="frame" x="64" y="487" width="286" height="89"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="286" id="2ng-hQ-2Cc"/>
+                                    <constraint firstAttribute="height" constant="89" id="oon-jb-eh6"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Join our volunteering WhatsApp group here!">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="22" name="KohinoorDevanagari-Semibold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="poojaEventsButton:" destination="iia-tk-iSP" eventType="touchUpInside" id="RIQ-fm-Fyb"/>
+                                    <action selector="vhsWebsiteButton:" destination="d6z-F5-v1x" eventType="touchUpInside" id="zst-Pb-FO8"/>
+                                    <action selector="whatsAppButton:" destination="o4o-fW-nW3" eventType="touchUpInside" id="yYK-R8-4ZL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2HY-jO-n5m" firstAttribute="centerX" secondItem="nw3-OV-mh6" secondAttribute="centerX" id="4Ke-TY-MeS"/>
+                            <constraint firstItem="wzq-BF-Amo" firstAttribute="top" secondItem="2HY-jO-n5m" secondAttribute="bottom" constant="27" id="6oK-XS-gnK"/>
+                            <constraint firstItem="wzq-BF-Amo" firstAttribute="centerX" secondItem="nw3-OV-mh6" secondAttribute="centerX" id="7AZ-8g-1Fe"/>
+                            <constraint firstItem="2HY-jO-n5m" firstAttribute="top" secondItem="UPs-dS-1ij" secondAttribute="bottom" constant="35" id="ALP-a4-vvl"/>
+                            <constraint firstItem="80F-Xd-ypC" firstAttribute="top" secondItem="HWy-M2-rMG" secondAttribute="top" constant="82" id="Ea9-Rr-Dbr"/>
+                            <constraint firstItem="UPs-dS-1ij" firstAttribute="top" secondItem="80F-Xd-ypC" secondAttribute="bottom" constant="26" id="Mh6-6z-2XY"/>
+                            <constraint firstItem="80F-Xd-ypC" firstAttribute="centerX" secondItem="nw3-OV-mh6" secondAttribute="centerX" id="klc-Op-HDM"/>
+                            <constraint firstItem="UPs-dS-1ij" firstAttribute="centerX" secondItem="nw3-OV-mh6" secondAttribute="centerX" id="my1-h5-esp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HWy-M2-rMG"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Houston Sri Meenakshi Temple" id="Z9Q-Ml-Rft">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon_2" id="fnC-TC-LjC">
+                            <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="volunteerMenuButton:" destination="o4o-fW-nW3" id="CcU-wy-iP6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="uvH-f5-MGJ" kind="showDetail" identifier="volunteerToHomeSegue" id="2tp-Aq-2yj"/>
+                        <segue destination="8mK-8j-fod" kind="showDetail" identifier="volunteerToVhsSegue" id="N3L-bL-4ch"/>
+                        <segue destination="3px-u6-fCI" kind="showDetail" identifier="volunteerToPoojaSegue" id="RWS-z8-8Ex"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sLo-FR-clW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="-336"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="N74-x8-vtA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uvH-f5-MGJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TjC-CL-VAw">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="21"/>
+                            <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XF9-9b-4YG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kb4-eY-RS3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2085.507246376812" y="2.6785714285714284"/>
+        </scene>
+        <!--Houston Sri Meenakshi Temple-->
+        <scene sceneID="pgu-Nh-WCn">
+            <objects>
+                <viewController storyboardIdentifier="vhsViewController" id="d6z-F5-v1x" customClass="vhsViewController" customModule="HoustonMTSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="evu-jH-jnZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3GK-8D-0Ok">
+                                <rect key="frame" x="68.333333333333343" y="170" width="277.66666666666663" height="75.666666666666686"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Sri Meenakshi Temple
+Vedic Heritage School</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="27" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="w4i-AV-HVv">
+                                <rect key="frame" x="56.666666666666657" y="253" width="300.66666666666674" height="166.66666666666663"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Registration Open Online
+Ages 4 and up
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="25" name="KohinoorDevanagari-Semibold"/>
+                                            <font key="NSOriginalFont" size="25" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+For more information,
+visit the VHS website below</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="23" name="KohinoorDevanagari-Semibold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kmD-SS-d8V">
+                                <rect key="frame" x="76.666666666666686" y="447" width="261" height="76"/>
+                                <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="b8P-kp-2cC"/>
+                                    <constraint firstAttribute="width" constant="261" id="q0I-SC-tlY"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="VHS Website">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="22" name="KohinoorDevanagari-Semibold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="poojaEventsButton:" destination="iia-tk-iSP" eventType="touchUpInside" id="1pE-P2-ppC"/>
+                                    <action selector="vhsWebsiteButton:" destination="d6z-F5-v1x" eventType="touchUpInside" id="EId-Nc-vV0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kmD-SS-d8V" firstAttribute="top" secondItem="w4i-AV-HVv" secondAttribute="bottom" constant="27.333333333333371" id="5PA-nH-7IO"/>
+                            <constraint firstItem="w4i-AV-HVv" firstAttribute="top" secondItem="3GK-8D-0Ok" secondAttribute="bottom" constant="7.3333333333333428" id="BhA-iI-a3u"/>
+                            <constraint firstItem="w4i-AV-HVv" firstAttribute="centerX" secondItem="evu-jH-jnZ" secondAttribute="centerX" id="NdS-QU-QxA"/>
+                            <constraint firstItem="kmD-SS-d8V" firstAttribute="centerX" secondItem="evu-jH-jnZ" secondAttribute="centerX" id="lzI-pX-jlY"/>
+                            <constraint firstItem="3GK-8D-0Ok" firstAttribute="centerX" secondItem="evu-jH-jnZ" secondAttribute="centerX" id="pnY-ba-gwT"/>
+                            <constraint firstItem="3GK-8D-0Ok" firstAttribute="top" secondItem="LOf-gB-Nzg" secondAttribute="top" constant="82" id="wC4-s3-3PA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LOf-gB-Nzg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Houston Sri Meenakshi Temple" id="zIu-24-K6m">
+                        <barButtonItem key="leftBarButtonItem" image="menu_icon_2" id="i3m-wq-vbd">
+                            <color key="tintColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="vhsMenuButton:" destination="d6z-F5-v1x" id="NCx-1J-Wjs"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="uvH-f5-MGJ" kind="showDetail" identifier="VHSToHomeSegue" id="ZIe-wk-ST5"/>
+                        <segue destination="3px-u6-fCI" kind="showDetail" identifier="VHSToPoojaSegue" id="Ehf-sl-5fX"/>
+                        <segue destination="Yv3-hG-5FY" kind="showDetail" identifier="vhsToVolunteerSegue" id="2yR-25-b1D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EwY-lw-xdz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-11.594202898550726" y="404.46428571428572"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VHx-d6-zC0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3px-u6-fCI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4l3-cR-hl4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="21"/>
+                            <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="iia-tk-iSP" kind="relationship" relationship="rootViewController" id="oFk-WO-B2I"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vqW-xV-uU8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="886.95652173913049" y="665.625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yxs-0j-Y6G">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8mK-8j-fod" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vkr-2q-XpE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="21"/>
+                            <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d6z-F5-v1x" kind="relationship" relationship="rootViewController" id="26G-VA-uW7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOo-UW-IDP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-921.73913043478262" y="404.46428571428572"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ncY-bj-1fQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yv3-hG-5FY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SDM-o6-ZDX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="21"/>
+                            <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="o4o-fW-nW3" kind="relationship" relationship="rootViewController" id="WQW-YV-IgA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mYo-Qr-Gih" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228.98550724637684" y="-336.16071428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EOB-En-CLD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7et-yL-FQV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k2T-Qe-N9k">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="21"/>
+                            <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GJg-3Z-qx6" kind="relationship" relationship="rootViewController" id="cAh-mq-KGM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QHM-lz-3m1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5408.6956521739139" y="2.0089285714285712"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bwf-la-t6b">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LVb-Xx-cP6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IJb-Sm-hZY">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="22"/>
+                            <color key="textColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nyA-XT-7O4" kind="relationship" relationship="rootViewController" id="SSk-tv-tcz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5VO-Ja-KRr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3800.0000000000005" y="369.64285714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="book_icon" width="512" height="512"/>
+        <image name="home_icon" width="2400" height="2271"/>
+        <image name="info_icon_2" width="980" height="980"/>
+        <image name="menu_icon_2" width="35" height="35"/>
+        <image name="pencil_icon" width="512" height="512"/>
+        <image name="thumbs_up_icon" width="512" height="512"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="lXT-Oj-Fsb"/>
+        <segue reference="qZn-h8-Vzh"/>
+        <segue reference="lRg-9k-EOQ"/>
+        <segue reference="3FL-du-gor"/>
+    </inferredMetricsTieBreakers>
+</document>
